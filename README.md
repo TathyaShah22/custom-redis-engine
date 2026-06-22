@@ -32,15 +32,17 @@ This challenge uses the CodeCrafters Course SDK for development and testing. Mak
 2. Clone the SDK repository and run the following command:
 ```bash
    bun install && make install
-
+```
 MacOS Note: lstat is not present in MacOS. You will need to create a symlink to stat in /usr/local/bin by running:
 
-Bash
+```Bash
 sudo ln -s /usr/bin/stat /usr/local/bin/lstat
+```
 Test the SDK installation by running:
 
-Bash
+```Bash
 course-sdk --version
+```
 How to Use This Repository
 Pick a Language: Choose your preferred programming language from the starter_templates/ directory.
 
